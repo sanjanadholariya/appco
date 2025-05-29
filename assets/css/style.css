@@ -204,12 +204,15 @@ header .menu ul li .dropdown::before{
 	transform: translatex(-50%);
 	
 }
+header .menu ul{
+	padding: 0;
+}
 header .menu ul li:hover .dropdown{
 	opacity: 1;
 	visibility: visible;
 	margin-top:20px;
 }
-header .menu ul li .dropdown ul li:hover{
+header .menu ul li .dropdown ul li:hover {
 	background-color: rgba(128, 128, 128, 0.689);
 }
 header .toggle i{
@@ -595,6 +598,7 @@ header .toggle i{
 }
 .play h2{
 	font-weight: var(--fw-600);
+	text-align: center;
 }
 
 

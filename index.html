@@ -5,6 +5,9 @@
 
 	<title>appco app landing page tamplate</title>
 
+	<!-- meta link -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 	<!-- fontawasome link -->
 	<link href="assets/css/all.min.css" rel="stylesheet">
@@ -15,10 +18,24 @@
 	<!-- favicon link -->
 	<link rel="icon" href="assets/img/favicon.png">
 
+
+	<!-- slik link -->
+	<link rel="stylesheet" href="assets/css/slick.css">
+
+	<!-- faq link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
 	<!-- style link -->
 	<link href="assets/css/style.css" rel="stylesheet">
 
-	
+	<!-- media link -->
+	<link href="assets/css/media.css" rel="stylesheet">
+
+
+
+
+
+
 
 
 </head>
@@ -27,74 +44,82 @@
 
 
 	<!-- header start -->
-
 	<header>
-		<div class="container">
+		<div class="container ">
 
-			<div class="row  align-center">
+			<div class="row   align-center">
 
-				<div class="w-3 ">
-					<div class="logo">
-						<a href="#"><img src="assets/img/logo-white-1x.png" alt=""></a>
+				<div class="w-12 d-flex">
+					<div class="w-3  w-xl-2">
+						<div class="logo">
+							<a href="#"><img src="assets/img/logo-white-1x.png" alt=""></a>
+						</div>
 					</div>
-				</div>
-				<div class="w-9">
-					<div class="menu d-flex justify-end">
-						<ul class="d-flex ">
-							<li class="align-center">
-								<a href="">home<i class="fa-solid fa-sort-down"></i></a>
-								<div class="dropdown">
-									<ul>
-										<li><a href="#">demo template 1</a></li>
-										<li><a href="#">demo template 2</a></li>
-										<li><a href="#">demo template 3</a></li>
-										<li><a href="#">demo template 4</a></li>
-										<li><a href="#">demo template 5</a></li>
-										<li><a href="#">demo template 6</a></li>
-										<li><a href="#">demo template 7</a></li>
-										<li><a href="#">demo template 8</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">about</a></li>
-							<li><a href="#">feature</a></li>
-							<li><a href="#">pricing</a></li>
-							<li><a href="#">screenshots</a></li>
-							<li>
-								<a href="#">pages<i class="fa-solid fa-sort-down"></i></a>
-								<div class="dropdown d-flex justify-start">
-									<ul>
-										<li><a href="#">login page 1</a></li>
-										<li><a href="#">login page 2</a></li>
-										<li><a href="#">signup page 1</a></li>
-										<li><a href="#">signup page 2</a></li>
-										<li><a href="#">password reset</a></li>
-										<li><a href="#">change password</a></li>
-										<li><a href="#">dowanload page</a></li>
-										<li><a href="#">review page</a></li>
-										<li><a href="#">FAQ page</a></li>
-										<li><a href="#">404 page</a></li>
-										<li><a href="#">comming soon</a></li>
-										<li><a href="#">thank you</a></li>
-										<li><a href="#">team page</a></li>
-										<li><a href="#">team single</a></li>
-									</ul>
-								</div>
-							</li>
-							<li>
-								<a href="#">blog<i class="fa-solid fa-sort-down"></i></a>
-								<div class="dropdown d-flex justify-start">
-									<ul>
-										<li><a href="#">blog grid</a></li>
-										<li><a href="#">blog left sidebar</a></li>
-										<li><a href="#">details right sidebar</a></li>
+					<div class="w-8  w-lg-10   d-xl-flex d-flex justify-end">
+						<div class="menu d-flex justify-end">
+							<ul class="d-flex ">
+								<li class="align-center">
+									<a href="">home<i class="fa-solid fa-sort-down"></i></a>
+									<div class="dropdown">
+										<ul>
+											<li><a href="#">demo template 1</a></li>
+											<li><a href="#">demo template 2</a></li>
+											<li><a href="#">demo template 3</a></li>
+											<li><a href="#">demo template 4</a></li>
+											<li><a href="#">demo template 5</a></li>
+											<li><a href="#">demo template 6</a></li>
+											<li><a href="#">demo template 7</a></li>
+											<li><a href="#">demo template 8</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#">about</a></li>
+								<li><a href="#">feature</a></li>
+								<li><a href="#">pricing</a></li>
+								<li><a href="#">screenshots</a></li>
+								<li>
+									<a href="#">pages<i class="fa-solid fa-sort-down"></i></a>
+									<div class="dropdown d-flex justify-start">
+										<ul>
+											<li><a href="#">login page 1</a></li>
+											<li><a href="#">login page 2</a></li>
+											<li><a href="#">signup page 1</a></li>
+											<li><a href="#">signup page 2</a></li>
+											<li><a href="#">password reset</a></li>
+											<li><a href="#">change password</a></li>
+											<li><a href="#">dowanload page</a></li>
+											<li><a href="#">review page</a></li>
+											<li><a href="#">FAQ page</a></li>
+											<li><a href="#">404 page</a></li>
+											<li><a href="#">comming soon</a></li>
+											<li><a href="#">thank you</a></li>
+											<li><a href="#">team page</a></li>
+											<li><a href="#">team single</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">blog<i class="fa-solid fa-sort-down"></i></a>
+									<div class="dropdown d-flex justify-start">
+										<ul>
+											<li><a href="#">blog grid</a></li>
+											<li><a href="#">blog left sidebar</a></li>
+											<li><a href="#">details right sidebar</a></li>
 
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">team</a></li>
-							<li><a href="#">content</a></li>
-						</ul>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#">team</a></li>
+								<li><a href="#">content</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="w-1 d-xl-none d-flex justify-end">
+						<div class="toggle ">
+
+							<i class="fa-solid fa-bars"></i>
+
+						</div>
 					</div>
 				</div>
 
@@ -106,84 +131,193 @@
 	<!-- header end -->
 
 	<!-- banner start -->
-	<section class="banner bg-img">
-		<div class="container ">
-			<div class="row">
-				<div class="w-6">
-					<div class="banner-content">
-						<h1 class=" d-flex justify-center align-center">Brainstorming for Desired Usability</h1>
-						<p>Our design projects are fresh and simple and will benefit your business greatly. Learn more
-							about our work!</p>
-						<div class="form">
-							<form class=" d-flex align-center">
-								<input type="email" placeholder="info@yourdomain.com">
-								<a href="#"><button>subscibe</button></a>
-							</form>
-						</div>
-						<div class="video d-flex align-center">
-							<i class="fa-regular fa-circle-play"></i>
-							<span>Watch Video Overview</span>
-						</div>
+	<swiper-container class="mySwiper" scrollbar-hide="true">
+		<swiper-slide>
+			<section class="banner bg-img">
+				<div class="container">
+					<div class="row d-flex justify-between align-center justify-center">
+						<div class="w-12 w-md-6 w-lg-6  d-flex align-center">
+							<div class="banner-content">
+								<div class="w-sm-12 w-md-12 p-12">
 
+									<h1 class="w-8">Brainstorming for Desired <span id="changingText"></span></h1>
+
+
+								</div>
+								<div class="w-11 w-md-12 p-0">
+									<p>Our design projects are fresh and simple and will benefit your business greatly.
+										Learn
+										more
+										about our work!</p>
+								</div>
+								<div class="form">
+									<form class="w-11 p-0 d-flex align-center">
+										<!-- <div class="w-12"> -->
+										<input type="email" placeholder="info@yourdomain.com">
+										<a href="#"><button>subscibe</button></a>
+										<!-- </div> -->
+									</form>
+								</div>
+								<div class="video d-flex align-center">
+									<i class="fa-regular fa-circle-play"></i>
+									<span>Watch Video Overview</span>
+								</div>
+
+							</div>
+						</div>
+						<div class="w-12 w-md-6 w-lg-6">
+							<div class="banner-image">
+								<img src="assets/img/app-product.png" alt="">
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="w-6">
-					<div class="banner-image">
-						<img src="assets/img/app-product.png" alt="">
+
+			</section>
+		</swiper-slide>
+		<swiper-slide>
+			<section class="banner bg-img">
+				<div class="container">
+					<div class="row d-flex justify-between align-center justify-center">
+						<div class="w-12 w-md-6 w-lg-6  d-flex align-center">
+							<div class="banner-content">
+								<div class="w-sm-12 w-md-12 p-12">
+									<h1 class=" d-flex justify-center align-center">Brainstorming for Desired Usability
+									</h1>
+								</div>
+								<div class="w-11 w-md-12 p-0">
+									<p>Our design projects are fresh and simple and will benefit your business greatly.
+										Learn
+										more
+										about our work!</p>
+								</div>
+								<div class="form">
+									<form class="w-11 p-0 d-flex align-center">
+										<!-- <div class="w-12"> -->
+										<input type="email" placeholder="info@yourdomain.com">
+										<a href="#"><button>subscibe</button></a>
+										<!-- </div> -->
+									</form>
+								</div>
+								<div class="video d-flex align-center">
+									<i class="fa-regular fa-circle-play"></i>
+									<span>Watch Video Overview</span>
+								</div>
+
+							</div>
+						</div>
+						<div class="w-12 w-md-6 w-lg-6">
+							<div class="banner-image">
+								<img src="assets/img/app-product.png" alt="">
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
 
-	</section>
+			</section>
+		</swiper-slide>
+		<swiper-slide>
+			<section class="why px-100">
+				<div class="container">
+					<div class="row">
+						<div class="why-title d-flex justify-center">
+							<div class="w-12 w-lg-7 mx-lg-100">
+
+								<h2>Why Peoples Love AppCo?</h2>
+								<p>Following reasons show advantages of adding AppCo to your lead pages, demos and
+									checkouts
+									evisculate interoperable imperatives rather.</p>
+							</div>
+						</div>
+						<div class="w-12 ">
+							<div class="why-content .why-xl-content .box  d-flex justify-center  ">
+								<div class="w-12  w-md-6 w-lg-6 w-xl-4">
+									<div class="box">
+										<div class="promo">
+											<i class="fa-solid fa-bezier-curve"></i>
+										</div>
+										<h4>Clean Design</h4>
+										<p>Increase sales by showing true dynamics of your website.</p>
+									</div>
+								</div>
+								<div class="w-12  w-md-6 w-lg-6 w-xl-4">
+									<div class="box">
+										<div class="promo2">
+											<i class="fa-solid fa-lock"></i>
+										</div>
+										<h4>Secure Data</h4>
+										<p>Build your online stores trust using Social Proof & Urgency.</p>
+									</div>
+								</div>
+								<div class="w-12  w-md-6 w-lg-6 w-xl-4">
+									<div class="box">
+										<div class="promo3">
+											<i class="fa-regular fa-eye"></i>
+										</div>
+										<h4>Retina Ready</h4>
+										<p>Realize importance of social proof in customer’s purchase decision.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+		</swiper-slide>
+
+	</swiper-container>
+
 	<!-- banner end -->
 
+
+
 	<!-- why start -->
-	<section class="px-100 py-100">
-		<div class="container">
-			<div class="row">
-				<div class="w-12">
-					<div class="why-title">
-						<h2>Why Peoples Love AppCo?</h2>
-						<p>Following reasons show advantages of adding AppCo to your lead pages, demos and<br> checkouts
-							evisculate interoperable imperatives rather.</p>
-					</div>
-				</div>
-				<div class="w-12">
-					<div class="why-content  d-flex justify-between">
-						<div class="w-4  ">
-							<div class="box">
-							<div class="promo">
-								<i class="fa-solid fa-bezier-curve"></i>
-							</div>
-							<h4>Clean Design</h4>
-							<p>Increase sales by showing true dynamics of your website.</p>
+
+	<section class="why px-100">
+		<div id="particles-js">
+			<div class="container">
+				<div class="row">
+					<div class="why-title d-flex justify-center">
+						<div class="w-12 w-lg-7 mx-lg-100">
+
+							<h2>Why Peoples Love AppCo?</h2>
+							<p>Following reasons show advantages of adding AppCo to your lead pages, demos and checkouts
+								evisculate interoperable imperatives rather.</p>
 						</div>
 					</div>
-						<div class="w-4  ">
-							<div class="box">
-
-							<div class="promo2">
-								<i class="fa-solid fa-lock"></i>
+					<div class="w-12 ">
+						<div class="why-content .why-xl-content .box  d-flex justify-center  ">
+							<div class="w-12  w-md-6 w-lg-6 w-xl-4">
+								<div class="box">
+									<div class="promo">
+										<i class="fa-solid fa-bezier-curve"></i>
+									</div>
+									<h4>Clean Design</h4>
+									<p>Increase sales by showing true dynamics of your website.</p>
+								</div>
 							</div>
-							<h4>Secure Data</h4>
-							<p>Build your online stores trust using Social Proof & Urgency.</p>
-						</div>
-					</div>
-
-						<div class="w-4 ">
-							<div class="box">
-
-							<div class="promo3">
-								<i class="fa-regular fa-eye"></i>
+							<div class="w-12  w-md-6 w-lg-6 w-xl-4">
+								<div class="box">
+									<div class="promo2">
+										<i class="fa-solid fa-lock"></i>
+									</div>
+									<h4>Secure Data</h4>
+									<p>Build your online stores trust using Social Proof & Urgency.</p>
+								</div>
 							</div>
-							<h4>Retina Ready</h4>
-							<p>Realize importance of social proof in customer’s purchase decision.</p>
+							<div class="w-12  w-md-6 w-lg-6 w-xl-4">
+								<div class="box">
+									<div class="promo3">
+										<i class="fa-regular fa-eye"></i>
+									</div>
+									<h4>Retina Ready</h4>
+									<p>Realize importance of social proof in customer’s purchase decision.</p>
+								</div>
+							</div>
 						</div>
-					</div>
 
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -191,76 +325,95 @@
 	<!-- why end -->
 
 	<!-- manage start -->
-	<section class="manage py-100 px-100">
+	<section class="manage px-100">
 		<div class="container">
 			<div class="row">
-				<div class="w-6">
-					<div class="manage-content ">
+				<div class="w-12 d-flex justify-between">
+					<div class="w-12 w-lg-6">
+						<div class="manage-content ">
 
-						<h2>Use Your Android or ios Device<br>
-							to Manage Everything
-						</h2>
+							<h2>Use Your Android or ios Device<br>
+								to Manage Everything
+							</h2>
 
-						<div class="info d-flex  align-center ">
-							<div class="w-2 image d-flex align-center justify-center">
-								<img src="assets/img/image-icon-1.png" alt="">
-							</div>
-							<div class="w-10 eg">
-								<p>Proactively syndicate open-source e-markets after low-risk high-yield synergy.
-									Professionally simplify visionary technology.</p>
-							</div>
-						</div>
-						<div class="info d-flex  align-center ">
-							<div class="w-2 image d-flex align-center justify-center">
-								<img src="assets/img/image-icon-2.png" alt="">
-							</div>
-							<div class="w-10 eg">
-								<p>ntrinsicly aggregate cutting-edge internal or "organic" sources through pandemic
-									manufactured products. Synergistically.</p>
-							</div>
-						</div>
-						<div class="info d-flex  align-center ">
-							<div class="w-2 image d-flex align-center justify-center">
-								<img src="assets/img/image-icon-3.png" alt="">
-							</div>
-							<div class="w-10 eg">
-								<p>Completely administrate empowered e-tailers after extensive experiences. Holisticly
-									leverage existing quality networks.</p>
-							</div>
-						</div>
-						<div class="info d-flex  align-center ">
-							<div class="w-2 image d-flex align-center justify-center">
-								<img src="assets/img/image-icon-4.png" alt="">
-							</div>
-							<div class="w-10 eg">
-								<p>Intrinsicly incentivize functionalized metrics whereas go forward networks.
-									Collaboratively fabricate clicks-and-mortar intellectual.</p>
-							</div>
-						</div>
+							<div class="info d-flex  align-center ">
+								<div class="w-2  ">
+									<div class="image d-flex align-center justify-center">
+										<img src="assets/img/image-icon-1.png" alt="">
+									</div>
+								</div>
+								<div class="w-10 ">
 
+									<p>Proactively syndicate open-source e-markets after low-risk high-yield synergy.
+										Professionally simplify visionary technology.</p>
+								</div>
+							</div>
+							<div class="info d-flex  align-center ">
+								<div class="w-2  ">
+									<div class="image d-flex align-center justify-center">
+										<img src="assets/img/image-icon-2.png" alt="">
+
+									</div>
+								</div>
+								<div class="w-10 ">
+
+									<p>ntrinsicly aggree cutting-edge internal or "organic" sources through pandemic
+										manufactured products. Synergistically.</p>
+								</div>
+							</div>
+							<div class="info d-flex  align-center ">
+								<div class="w-2  ">
+									<div class="image d-flex align-center justify-center">
+										<img src="assets/img/image-icon-3.png" alt="">
+
+									</div>
+								</div>
+								<div class="w-10 ">
+
+									<p>Completely administrate empowered e-tailers after extensive experiences.
+										Holisticly
+										leverage existing quality networks.</p>
+								</div>
+							</div>
+							<div class="info d-flex  align-center ">
+								<div class="w-2  ">
+									<div class="image d-flex align-center justify-center">
+										<img src="assets/img/image-icon-4.png" alt="">
+
+									</div>
+								</div>
+								<div class="w-10 ">
+
+									<p>Intrinsicly incentivize functionalized metrics whereas go forward networks.
+										Collaboratively fabricate clicks-and-mortar intellectual.</p>
+								</div>
+							</div>
+
+						</div>
 					</div>
-				</div>
-				<div class="w-1"></div>
-				<div class="w-5">
-					<div class="manage-image">
-						<img src="assets/img/image-11.png" alt="">
+					<!-- <div class="w-1"></div> -->
+					<div class="w-12 w-lg-5 ">
+						<div class="manage-image ">
+							<img src="assets/img/image-11.png" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</section>
 	<!-- manage end -->
 
 	<!-- share start -->
-	<section class="share py-100 px-100 ">
+	<section class="share px-100 ">
 		<div class="row">
-			<div class="container d-flex justify-center">
-				<div class="w-4">
+			<div class="container d-flex justify-center justify-between">
+				<div class="w-12 w-md-6 w-lg-5">
 					<div class="share-image">
 						<img src="assets/img/image-14.png" alt="">
 					</div>
 				</div>
-				<div class="w-8">
+				<div class="w-12 w-md-5 w-lg-6 p-lg-t-l00">
 					<div class="share-content ">
 						<h2>Share your Photos with<br>
 							Friends Easily
@@ -294,12 +447,17 @@
 	</section>
 	<!-- share end -->
 
+
 	<!-- faster start -->
-	<section>
-		<div class="row">
-			<div class="container px-100 ">
-				<div class="faster d-flex justify-between">
-					<div class="w-7">
+	<section class="faster px-100">
+
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="w-12 d-flex justify-between">
+					<div class="w-12 p-lg-t-l00 p-sm-b-l00  w-md-6">
 						<div class="faster-content align-center">
 							<h2>Start Managing your Apps Business, more Faster</h2>
 							<p>Objectively deliver professional value with diverse web-readiness. Collaboratively
@@ -309,7 +467,7 @@
 							<button><i class="fa-brands fa-apple"></i>App store</button>
 						</div>
 					</div>
-					<div class="w-4">
+					<div class="w-12 w-md-5">
 						<div class="faster-image">
 							<img src="assets/img/app-hand-top.png" alt="">
 						</div>
@@ -317,73 +475,74 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</section>
 	<!-- faster end -->
 
 	<!-- best start -->
-	<section class="best  py-100">
-		<div class="row">
-			<div class="container d-flex">
+	<section class="best ">
+		<div class="container d-flex">
+			<div class="row">
+				<div class="best-title d-flex justify-center">
 
-				<div class="w-12">
-					<div class="best-title">
-						<h2>Affordable Pricing and Packages<br>
+					<div class="w-12 w-lg-7 mx-lg-100">
+						<h2>Affordable Pricing and Packages
 							Choose your Best One</h2>
 						<p>Distinctively brand cutting-edge imperatives through synergistic infrastructures
 							customize
-							low-risk <br>high-yield processes rather than user friendly.</p>
+							low-risk high-yield processes rather than user friendly.</p>
 					</div>
 				</div>
 				<div class="w-12">
 					<div class="best-content d-flex justify-center ">
-						<div class="w-4 ">
+						<div class="w-12 w-md-6 w-lg-4 p-12">
 							<div class="box">
-							<h2>Basic</h2>
-							<img src="assets/img/basic.svg" alt="">
-							<ul type="none">
-								<li>5 Users access same time</li>
-								<li>Integrated eCommerce</li>
-								<li>Customization interface</li>
-								<li>Weekly updated</li>
-								<li>24/7 Phone Support</li>
-								<li>Event Analytics</li>
-							</ul>
-							<h1>$29</h1>
-							<button>purchase now</button>
+								<h2>Basic</h2>
+								<img src="assets/img/basic.svg" alt="">
+								<ul type="none">
+									<li>5 Users access same time</li>
+									<li>Integrated eCommerce</li>
+									<li>Customization interface</li>
+									<li>Weekly updated</li>
+									<li>24/7 Phone Support</li>
+									<li>Event Analytics</li>
+								</ul>
+								<h1>$29</h1>
+								<button>purchase now</button>
+							</div>
 						</div>
-					</div>
-						<div class="w-4 ">
+						<div class="w-12 w-md-6 w-lg-4  ">
 							<div class="box2">
-							<h2>Standard</h2>
-							<img src="assets/img/standard.svg" alt="">
-							<ul type="none">
-								<li>10 Users access same time</li>
-								<li>Integrated eCommerce</li>
-								<li>Customization interface</li>
-								<li>daily updated</li>
-								<li>24/7 Phone Support</li>
-								<li>Event Analytics</li>
-							</ul>
-							<h1>$145</h1>
-							<button class="btn2">purchase now</button>
+								<h2>Standard</h2>
+								<img src="assets/img/standard.svg" alt="">
+								<ul type="none">
+									<li>10 Users access same time</li>
+									<li>Integrated eCommerce</li>
+									<li>Customization interface</li>
+									<li>daily updated</li>
+									<li>24/7 Phone Support</li>
+									<li>Event Analytics</li>
+								</ul>
+								<h1>$145</h1>
+								<button class="btn2">purchase now</button>
+							</div>
 						</div>
-					</div>
-						<div class="w-4 ">
+						<div class="w-12 w-md-6 w-lg-4  ">
 							<div class="box">
-							<h2>unlimited</h2>
-							<img src="assets/img/unlimited.svg" alt="">
-							<ul type="none">
-								<li>20 Users access same time</li>
-								<li>Integrated eCommerce</li>
-								<li>Customization interface</li>
-								<li>free updated</li>
-								<li>24/7 Phone Support</li>
-								<li>Event Analytics</li>
-							</ul>
-							<h1>$249</h1>
-							<button>purchase now</button>
+								<h2>unlimited</h2>
+								<img src="assets/img/unlimited.svg" alt="">
+								<ul type="none">
+									<li>20 Users access same time</li>
+									<li>Integrated eCommerce</li>
+									<li>Customization interface</li>
+									<li>free updated</li>
+									<li>24/7 Phone Support</li>
+									<li>Event Analytics</li>
+								</ul>
+								<h1>$249</h1>
+								<button>purchase now</button>
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 				<div class="w-12">
@@ -391,8 +550,221 @@
 					</p>
 				</div>
 				<div class="w-12">
-					<div class="question d-flex ">
-						<div class="w-6">
+
+					<!-- faq codepen start -->
+
+					<section class="faq-section py-3">
+						<div class="container">
+
+							<div class="w-lg-50 mx-auto">
+
+								<div class="accordion accordion-flush" id="accordionExample">
+
+									<div class="w-12 d-flex">
+										<div class="w-6">
+											<!-- 1: coll1 -->
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<!--   data-bs-target="#coll1",  controls="coll1", id="coll1", aria-expanded="true"      -->
+													<button class="accordion-button" type="button"
+														data-bs-toggle="collapse" data-bs-target="#coll1"
+														aria-expanded="true" aria-controls="coll1">
+														<li class="d-flex align-center justify-between">
+															<div class=" d-flex align-center">
+																<i class="fa-solid fa-clipboard-list"></i>
+																<p> Which license do I need?</p>
+															</div>
+														</li>
+													</button>
+												</h2>
+												<!-- show : by default Always open -->
+												<div id="coll1" class="accordion-collapse collapse show"
+													data-bs-parent="#accordionExample">
+													<div class="accordion-body">
+														The Box Sizing property in CSS defines how developers should
+														calculate the width and height of a box.
+
+														Content Box is when the default height and width get applied to
+														the content of an element. The border and padding lie outside
+														the box.
+
+													</div>
+												</div>
+											</div>
+
+											<!-- 2: coll2 -->
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<!--       collapsed,   aria-expanded="false"   -->
+													<button class="accordion-button collapsed" type="button"
+														data-bs-toggle="collapse" data-bs-target="#coll2"
+														aria-expanded="false" aria-controls="coll2">
+														<li class="d-flex align-center justify-between">
+															<div class=" d-flex align-center">
+																<i class="fa-solid fa-photo-film"></i>
+																<p> Which license do I need?</p>
+															</div>
+
+														</li>
+													</button>
+												</h2>
+												<div id="coll2" class="accordion-collapse collapse"
+													data-bs-parent="#accordionExample">
+													<div class="accordion-body">
+														The Box Sizing property in CSS defines how developers should
+														calculate the width and height of a box.
+
+														Content Box is when the default height and width get applied to
+														the content of an element. The border and padding lie outside
+														the box.
+
+														Padding Box is when the developer adds the dimensions to include
+														the padding and content of the element. This adds a border
+														outside the given box.
+
+														Border Box is when the box dimensions apply to the border,
+														padding and content.
+													</div>
+												</div>
+											</div>
+
+											<!-- 3: coll3 -->
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<button class="accordion-button collapsed" type="button"
+														data-bs-toggle="collapse" data-bs-target="#coll3"
+														aria-expanded="false" aria-controls="coll3">
+														<li class="d-flex align-center justify-between">
+															<div class=" d-flex align-center">
+																<i class="fa-brands fa-unsplash"></i>
+																<p> Which license do I need?</p>
+															</div>
+
+														</li>
+													</button>
+												</h2>
+												<div id="coll3" class="accordion-collapse collapse"
+													data-bs-parent="#accordionExample">
+													<div class="accordion-body">
+														There are three ways to hide elements with CSS.
+
+														display:none can hide the content so that it doesn’t get stored
+														in the DOM.
+
+														visibility:hidden adds an element to the DOM and occupies space.
+														However, the user cannot see it.
+
+														position:absolute makes the element appear outside the screen,
+														not on the screen.
+													</div>
+												</div>
+											</div>
+
+										</div>
+
+
+										<div class="w-6">
+
+											<!-- 4: coll4 -->
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<!--   target="#coll4",  id="coll4"  -->
+													<button class="accordion-button collapsed" type="button"
+														data-bs-toggle="collapse" data-bs-target="#coll4"
+														aria-expanded="false" aria-controls="coll4">
+														<li class="d-flex align-center justify-between">
+															<div class=" d-flex align-center">
+																<i class="fa-solid fa-clipboard-list"></i>
+																<p> Which license do I need?</p>
+															</div>
+
+														</li>
+													</button>
+												</h2>
+												<div id="coll4" class="accordion-collapse collapse"
+													data-bs-parent="#accordionExample">
+													<div class="accordion-body">
+														Callback is a JavaScript function that developers send as a
+														parameter or argument to other functions. You can call this
+														function whenever the function it is provided to gets called.
+													</div>
+												</div>
+											</div>
+											<!-- 5: coll5 -->
+
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<!--   target="#coll5",  id="coll5"  -->
+													<button class="accordion-button collapsed" type="button"
+														data-bs-toggle="collapse" data-bs-target="#coll5"
+														aria-expanded="false" aria-controls="coll5">
+														<li class="d-flex align-center justify-between">
+															<div class=" d-flex align-center">
+																<i class="fa-solid fa-lock"></i>
+																<p> Which license do I need?</p>
+															</div>
+
+														</li>
+													</button>
+												</h2>
+												<div id="coll5" class="accordion-collapse collapse"
+													data-bs-parent="#accordionExample">
+													<div class="accordion-body">
+														Undefined refers to a situation where a variable is declared but
+														no value has been assigned to the variable yet.
+
+														Null refers to the assignment of value to a variable that isn’t
+														meant to contain any value.
+
+														Undeclared refers to variables that don’t exist in an
+														application or program or haven’t been declared.
+													</div>
+												</div>
+											</div>
+
+											<!-- 6: coll5 -->
+
+											<div class="accordion-item">
+												<h2 class="accordion-header">
+													<!--   target="#coll5",  id="coll5"  -->
+													<button class="accordion-button collapsed" type="button"
+														data-bs-toggle="collapse" data-bs-target="#coll5"
+														aria-expanded="false" aria-controls="coll5">
+														<li class="d-flex align-center justify-between">
+															<div class=" d-flex align-center">
+																<i class="fa-regular fa-circle-stop"></i>
+																<p> Which license do I need?</p>
+															</div>
+
+														</li>
+													</button>
+												</h2>
+												<div id="coll5" class="accordion-collapse collapse"
+													data-bs-parent="#accordionExample">
+													<div class="accordion-body">
+														Undefined refers to a situation where a variable is declared but
+														no value has been assigned to the variable yet.
+
+														Null refers to the assignment of value to a variable that isn’t
+														meant to contain any value.
+
+														Undeclared refers to variables that don’t exist in an
+														application or program or haven’t been declared.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+
+					<!-- <div class="question d-flex ">
+						<div class="w-12 w-lg-6">
 							<ul type="none">
 								<li class="d-flex align-center justify-between">
 									<div class="w-10 d-flex align-center">
@@ -418,7 +790,7 @@
 
 							</ul>
 						</div>
-						<div class="w-6">
+						<div class="w-12 w-lg-6">
 							<ul type="none">
 								<li class="d-flex align-center justify-between">
 									<div class="w-10 d-flex align-center">
@@ -446,7 +818,7 @@
 						</div>
 
 
-					</div>
+					</div> -->
 				</div>
 
 			</div>
@@ -455,25 +827,25 @@
 	<!-- best end -->
 
 	<!-- clind start -->
-	<section class="client  p">
+	<section class="client  ">
 		<div class="container ">
 			<div class="row">
 				<div class="w-12">
 					<div class=" d-flex justify-between">
-						<div class="w-6">
+						<div class="w-12 w-md-6 p-12">
 							<div class="client-content">
 								<h2>What Clients Say About Us
 								</h2>
 								<p>Rapidiously morph transparent internal or "organic" sources whereas resource sucking
 									e-business. Conveniently innovate compelling internal.</p>
-								<div class="d-flex">
+								<div class=" w-12 d-flex">
 									<img src="assets/img/client-1-color.png" alt="">
 									<img src="assets/img/client-6-color.png" alt="">
 									<img src="assets/img/client-3-color.png" alt="">
 								</div>
 							</div>
 						</div>
-						<div class="w-5">
+						<div class="w-12 w-md-5">
 							<div class="client-review">
 								<div class="d-flex align-center">
 									<div><img src="assets/img/client-1.jpg" alt=""></div>
@@ -513,99 +885,118 @@
 	</section>
 	<!-- play end -->
 
+
+
+
+
+	<div class="slider">
+		<img src="assets/img/team-1.jpg" alt="">
+		<img src="assets/img/team-2.jpg" alt="">
+		<img src="assets/img/team-3.jpg" alt="">
+		<img src="assets/img/team-1.jpg" alt="">
+		<img src="assets/img/team-4.jpg" alt="">
+		<img src="assets/img/team-2.jpg" alt="">
+		<img src="assets/img/team-3.jpg" alt="">
+		<img src="assets/img/team-4.jpg" alt="">
+		<img src="assets/img/team-1.jpg" alt="">
+		<img src="assets/img/team-2.jpg" alt="">
+		<img src="assets/img/team-3.jpg" alt="">
+	</div>
+
 	<!-- team start -->
-	 <section>
-		<div class="container  p">
+	<section class="team px-100">
+		<div class="container  ">
 			<div class="row">
-				<div class="w-12">
-					<div class="team-title">
+				<div class="team-title d-flex justify-center">
+					<div class=" w-12 w-lg-6 mx-lg-100">
+
 						<h2>Our Team Members</h2>
-						<p>Following reasons show advantages of adding AppCo to your lead pages, foster market <br>
+						<p>Following reasons show advantages of adding AppCo to your lead pages, foster market
 							positioning products without demos and checkouts.</p>
 					</div>
 				</div>
 				<div class="w-12 d-flex">
-					<div class="w-3 team">
+					<div class="w-6 w-lg-3 p-12">
+						<div class="team">
+							<div class="team-image">
+								<img src="assets/img/team-4.jpg" alt="">
+								<div class="team-content d-flex justify-center align-center">
+									<div class="justify-center align-center">
+										<h3>Edna Mason</h3>
+										<h5>Senior Designer</h5>
 
-						<div class="team-image">
-							<img src="assets/img/team-4.jpg" alt="">
-							<div class="team-content d-flex justify-center align-center">
-								<div class="justify-center align-center">
-									<h3>Edna Mason</h3>
-									<h5>Senior Designer</h5>
-	
-									<ul class="d-flex" type="none">
-										<li><i class="fa-brands fa-facebook-f"></i></li>
-										<li><i class="fa-brands fa-twitter"></i></li>
-										<li><i class="fa-brands fa-discord"></i></li>
-										<li><i class="fa-brands fa-dribbble"></i></li>
-									</ul>
+										<ul class="d-flex" type="none">
+											<li><i class="fa-brands fa-facebook-f"></i></li>
+											<li><i class="fa-brands fa-twitter"></i></li>
+											<li><i class="fa-brands fa-discord"></i></li>
+											<li><i class="fa-brands fa-dribbble"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
-						
 					</div>
 
-					<div class="w-3 team">
+					<div class="w-6 w-lg-3">
+						<div class="team">
+							<div class="team-image">
+								<img src="assets/img/team-1.jpg" alt="">
+								<div class="team-content d-flex justify-center align-center">
+									<div class=" justify-center align-center">
+										<h3>Edna Mason</h3>
+										<h5>Senior Designer</h5>
 
-						<div class="team-image">
-							<img src="assets/img/team-1.jpg" alt="">
-							<div class="team-content d-flex justify-center align-center">
-								<div class=" justify-center align-center">
-									<h3>Edna Mason</h3>
-									<h5>Senior Designer</h5>
-	
-									<ul class="d-flex" type="none">
-										<li><i class="fa-brands fa-facebook-f"></i></li>
-										<li><i class="fa-brands fa-twitter"></i></li>
-										<li><i class="fa-brands fa-discord"></i></li>
-										<li><i class="fa-brands fa-dribbble"></i></li>
-									</ul>
+										<ul class="d-flex" type="none">
+											<li><i class="fa-brands fa-facebook-f"></i></li>
+											<li><i class="fa-brands fa-twitter"></i></li>
+											<li><i class="fa-brands fa-discord"></i></li>
+											<li><i class="fa-brands fa-dribbble"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
-						
 					</div>
 
-					<div class="w-3 team">
+					<div class="w-6 w-lg-3">
+						<div class="team">
+							<div class="team-image">
+								<img src="assets/img/team-2.jpg" alt="">
+								<div class="team-content d-flex justify-center align-center">
+									<div class="justify-center align-center">
+										<h3>Edna Mason</h3>
+										<h5>Senior Designer</h5>
 
-						<div class="team-image">
-							<img src="assets/img/team-2.jpg" alt="">
-							<div class="team-content d-flex justify-center align-center">
-								<div class="justify-center align-center">
-									<h3>Edna Mason</h3>
-									<h5>Senior Designer</h5>
-	
-									<ul class="d-flex" type="none">
-										<li><i class="fa-brands fa-facebook-f"></i></li>
-										<li><i class="fa-brands fa-twitter"></i></li>
-										<li><i class="fa-brands fa-discord"></i></li>
-										<li><i class="fa-brands fa-dribbble"></i></li>
-									</ul>
+										<ul class="d-flex" type="none">
+											<li><i class="fa-brands fa-facebook-f"></i></li>
+											<li><i class="fa-brands fa-twitter"></i></li>
+											<li><i class="fa-brands fa-discord"></i></li>
+											<li><i class="fa-brands fa-dribbble"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
-						
 					</div>
-					<div class="w-3 team">
+					<div class="w-6 w-lg-3">
+						<div class="team">
+							<div class="team-image">
+								<img src="assets/img/team-3.jpg" alt="">
+								<div class="team-content d-flex justify-center align-center">
+									<div class=" justify-center align-center">
+										<h3>Edna Mason</h3>
+										<h5>Senior Designer</h5>
 
-						<div class="team-image">
-							<img src="assets/img/team-3.jpg" alt="">
-							<div class="team-content d-flex justify-center align-center">
-								<div class=" justify-center align-center">
-									<h3>Edna Mason</h3>
-									<h5>Senior Designer</h5>
-	
-									<ul class="d-flex" type="none">
-										<li><i class="fa-brands fa-facebook-f"></i></li>
-										<li><i class="fa-brands fa-twitter"></i></li>
-										<li><i class="fa-brands fa-discord"></i></li>
-										<li><i class="fa-brands fa-dribbble"></i></li>
-									</ul>
+										<ul class="d-flex" type="none">
+											<li><i class="fa-brands fa-facebook-f"></i></li>
+											<li><i class="fa-brands fa-twitter"></i></li>
+											<li><i class="fa-brands fa-discord"></i></li>
+											<li><i class="fa-brands fa-dribbble"></i></li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
-						
 					</div>
 
 				</div>
@@ -619,38 +1010,40 @@
 		<div class="container">
 			<div class="row">
 				<div class="w-12 d-flex">
-					<div class="w-5">
+					<div class="w-12 p-12 w-md-5">
 						<div class="contact-contain">
 							<h2>Contact With Us</h2>
-							<p>It's very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office. Dynamically innovate competitive technology after an expanded array of leadership.</p>
+							<p>It's very easy to get in touch with us. Just use the contact form or pay us a visit for a
+								coffee at the office. Dynamically innovate competitive technology after an expanded
+								array of leadership.</p>
 							<span>Head Office <br>121 King St, Melbourne VIC 3000, Australia</span> <br><br>
 							<span>Phone: +61 2 8376 6284 <br> Email : <a href="#">hello@yourdomain.com</a></span>
 						</div>
 					</div>
-					<div class="w-7">
+					<div class="w-12 w-md-6">
 						<div class="contact-form">
 							<h5>Reach us quickly</h5>
 							<form class="d-flex">
-							<div class="w-6">
-								<input type="text" placeholder="enter name">
-							</div>
-							<div class="w-6">
-								<input type="email"  placeholder="enter email">
+								<div class="w-6">
+									<input type="text" placeholder="enter name">
+								</div>
+								<div class="w-6">
+									<input type="email" placeholder="enter email">
 
-							</div>
-							<div class="w-6">
-								<input type="text"  placeholder="your phone">
+								</div>
+								<div class="w-6">
+									<input type="text" placeholder="your phone">
 
-							</div>
-							<div class="w-6">
-								<input type="text"  placeholder="your compny">
+								</div>
+								<div class="w-6">
+									<input type="text" placeholder="your compny">
 
-							</div>
-							<div class="w-12">
-								<textarea name="" id="" placeholder="Message"></textarea>
-							</div>
+								</div>
+								<div class="w-12">
+									<textarea name="" id="" placeholder="Message"></textarea>
+								</div>
 								<button>Send Message</button>
-						</form>
+							</form>
 
 						</div>
 					</div>
@@ -661,32 +1054,68 @@
 	<!-- contact end -->
 
 	<!-- company start -->
-	 <section class="company p">
+	<section class="company ">
 		<div class="container">
 			<div class="row">
-				<div class="w-12">
-					<div class="team-title">
+				<div class="team-title d-flex justify-center">
+					<div class="w-12  w-lg-6 mx-lg-100">
 						<h2>Trusted by Companies</h2>
-						<p>Rapidiously morph transparent internal or "organic" sources whereas resource sucking <br>  e-business. Conveniently innovate compelling internal.</p>
+						<p>Rapidiously morph transparent internal or "organic" sources whereas resource sucking
+							e-business. Conveniently innovate compelling internal.</p>
 					</div>
 				</div>
 				<div class="w-12 d-flex">
-					
-					<div class="w-2"><img src="assets/img/client-1-color (1).png" alt=""></div>
-					<div class="w-2"><img src="assets/img/client-3-color.png" alt=""></div>
-					<div class="w-2"><img src="assets/img/client-2-color.png" alt=""></div>
-					<div class="w-2"><img src="assets/img/client-5-color.png" alt=""></div>
-					<div class="w-2"><img src="assets/img/client-6-color.png" alt=""></div>
-					<div class="w-2"><img src="assets/img/client-4-color.png" alt=""></div>
+
+					<div class="w-6 w-md-4 w-lg-2"><img src="assets/img/client-1-color (1).png" alt=""></div>
+					<div class="w-6 w-md-4 w-lg-2"><img src="assets/img/client-3-color.png" alt=""></div>
+					<div class="w-6 w-md-4 w-lg-2"><img src="assets/img/client-2-color.png" alt=""></div>
+					<div class="w-6 w-md-4 w-lg-2"><img src="assets/img/client-5-color.png" alt=""></div>
+					<div class="w-6 w-md-4 w-lg-2"><img src="assets/img/client-6-color.png" alt=""></div>
+					<div class="w-6 w-md-4 w-lg-2"><img src="assets/img/client-4-color.png" alt=""></div>
 
 				</div>
 			</div>
 		</div>
-	 </section>
+	</section>
 	<!-- company end -->
 
+	<div class="count-area" data-diff="100">
+		<div class="container">
+			<div class="row d-flex justify-between">
+				<div class="col-sm-6 col-md-3">
+					<div class="count-area-content">
+						<div class="count-icon"> <i class="fa fa-home"></i></div>
+						<div class="count-digit">9</div>
+						<div class="count-title"> Count Title </div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="count-area-content">
+						<div class="count-icon"> <i class="fa fa-graduation-cap"></i></div>
+						<div class="count-digit">80</div>
+						<div class="count-title"> Count Title</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="count-area-content">
+						<div class="count-icon"> <i class="fa fa-user"></i></div>
+						<div class="count-digit">742</div>
+						<div class="count-title"> Count Title </div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="count-area-content">
+						<div class="count-icon"> <i class="fa fa-book"></i></div>
+						<div class="count-digit">1200</div>
+						<div class="count-title"> Count Title </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- subscribe start -->
-	 <section class="sub">
+	<section class="sub">
 		<div class="container">
 			<span class="sub-image">
 				<img src="assets/img/footer-top-shape.png" alt="">
@@ -694,27 +1123,33 @@
 			<div class="row">
 				<div class="w-12">
 					<div class="sub-form">
-						<form action="">
-						<input type="email" placeholder="info@yourdomain.com">
-						<button>subscribe</button>
-					</form>
+						<form>
+							<div class="w-6">
+								<input type="email" placeholder="info@yourdomain.com">
+								<button>subscribe</button>
+							</div>
+
+						</form>
 					</div>
 
 				</div>
 			</div>
 		</div>
-	 </section>
+	</section>
 	<!-- subscribe end -->
 
+
+
 	<!-- footer start -->
-	 <footer>
+	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="w-12 ">
 					<div class="footer-start d-flex justify-between justify-center">
-						<div class="w-4 logo">
+						<div class="w-12 w-lg-4 logo">
 							<img src="assets/img/logo-white-1x (1).png" alt="">
-							<p>Holisticly empower premium architectures without value-added ideas. Seamlessly evolve cross-platform experiences.</p>
+							<p>Holisticly empower premium architectures without value-added ideas. Seamlessly evolve
+								cross-platform experiences.</p>
 							<ul type="none" class="d-flex">
 								<li><i class="fa-brands fa-facebook-f"></i></li>
 								<li><i class="fa-brands fa-instagram"></i></li>
@@ -722,7 +1157,7 @@
 								<li><i class="fa-brands fa-pinterest-p"></i></li>
 							</ul>
 						</div>
-						<div class="w-3">
+						<div class="w-3 w-sm-6 p-12 w-md-4 w-lg-3">
 							<h5>Resources</h5>
 							<ul type="none">
 								<li>Help</li>
@@ -732,7 +1167,7 @@
 								<li>Documentation</li>
 							</ul>
 						</div>
-						<div class="w-3">
+						<div class="w-3 w-sm-6 w-md-4 w-lg-3">
 							<h5>Company</h5>
 							<ul type="none">
 								<li>About Us</li>
@@ -742,42 +1177,44 @@
 								<li>Our Team</li>
 							</ul>
 						</div>
-						<div class="w-2 location">
-							<h5>Location</h5>
-							<ul>
-								<li class="d-flex">
-									<div><i class="fa-solid fa-location-dot"></i></div>
-									<div>121 King Melbourne <br>
-										Australia 3000
+						<div class="w-2 w-sm-6 w-md-4 w-lg-2">
+							<div class="location">
+								<h5>Location</h5>
+								<ul>
+									<li class="d-flex">
+										<div><i class="fa-solid fa-location-dot"></i></div>
+										<div>121 King Melbourne <br>
+											Australia 3000
 										</div>
-								</li>
-								<li class="d-flex">
-									<div><i class="fa-solid fa-mobile-retro"></i></div>
-									<div>
-										+61 2 8376 6284
+									</li>
+									<li class="d-flex">
+										<div><i class="fa-solid fa-mobile-retro"></i></div>
+										<div>
+											+61 2 8376 6284
 										</div>
-								</li>
-								<li class="d-flex">
-									<div><i class="fa-solid fa-envelope-open-text"></i></div>
-									<div>
-										mail@example.com
+									</li>
+									<li class="d-flex">
+										<div><i class="fa-solid fa-envelope-open-text"></i></div>
+										<div>
+											mail@example.com
 										</div>
-								</li>
-								<li class="d-flex">
-									<div><i class="fa-solid fa-globe"></i></div>
-									<div>
-										www.yourdomain.com
+									</li>
+									<li class="d-flex">
+										<div><i class="fa-solid fa-globe"></i></div>
+										<div>
+											www.yourdomain.com
 										</div>
-								</li>
-							</ul>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="w-12 footer-end d-flex justify-between">
-					<div class="w-8 ">
+					<div class="w-12 w-md-8 p-12">
 						<p>© ThemeTags Design Agency, All rights reserved</p>
 					</div>
-					<div class="w-4 d-flex justify-end">
+					<div class="w-12  w-md-4 d-flex md-justify-end">
 						<ul class="d-flex" type="none">
 							<li>Terms</li>
 							<li> Security</li>
@@ -787,10 +1224,282 @@
 				</div>
 			</div>
 		</div>
-	 </footer>
+	</footer>
 	<!-- footer end -->
 
 
+
+	<main class="bg__canvas">
+		<div class="cursor"></div>
+	</main>
+	<!-- <script src="./main.js"></script> -->
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".toggle").click(function () {
+				$(".menu").toggleClass("show");
+			});
+		});
+	</script>
+
+
+	<script>
+		function visible(partial) {
+			var $t = partial,
+				$w = jQuery(window),
+				viewTop = $w.scrollTop(),
+				viewBottom = viewTop + $w.height(),
+				_top = $t.offset().top,
+				_bottom = _top + $t.height(),
+				compareTop = partial === true ? _bottom : _top,
+				compareBottom = partial === true ? _top : _bottom;
+
+			return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
+
+		}
+
+		$(window).scroll(function () {
+
+			if (visible($('.count-digit'))) {
+				if ($('.count-digit').hasClass('counter-loaded')) return;
+				$('.count-digit').addClass('counter-loaded');
+
+				$('.count-digit').each(function () {
+					var $this = $(this);
+					jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+						duration: 5000,
+						easing: 'swing',
+						step: function () {
+							$this.text(Math.ceil(this.Counter));
+						}
+					});
+				});
+			}
+		})
+
+
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script>
+		particlesJS("particles-js", {
+			particles: {
+				number: {
+					value: 52,
+					density: {
+						enable: true,
+						value_area: 631.3280775270874
+					}
+				},
+				color: {
+					value: "#000"
+				},
+				shape: {
+					type: "circle",
+					stroke: {
+						width: 0,
+						color: "#000000"
+					},
+					polygon: {
+						nb_sides: 5
+					},
+					image: {
+						src: "img/github.svg",
+						width: 100,
+						height: 100
+					}
+				},
+				opacity: {
+					value: 0.5,
+					random: true,
+					anim: {
+						enable: false,
+						speed: 1,
+						opacity_min: 0.1,
+						sync: false
+					}
+				},
+				size: {
+					value: 5,
+					random: true,
+					anim: {
+						enable: false,
+						speed: 40,
+						size_min: 0.1,
+						sync: false
+					}
+				},
+				line_linked: {
+					enable: false,
+					distance: 500,
+					color: "#000",
+					opacity: 0.4,
+					width: 2
+				},
+				move: {
+					enable: true,
+					speed: 1.5,
+					direction: "bottom",
+					random: false,
+					straight: false,
+					out_mode: "out",
+					bounce: false,
+					attract: {
+						enable: false,
+						rotateX: 600,
+						rotateY: 1200
+					}
+				}
+			},
+			interactivity: {
+				detect_on: "canvas",
+				events: {
+					onhover: {
+						enable: false,
+						mode: "bubble"
+					},
+					onclick: {
+						enable: true,
+						mode: "repulse"
+					},
+					resize: true
+				},
+				modes: {
+					grab: {
+						distance: 400,
+						line_linked: {
+							opacity: 0.5
+						}
+					},
+					bubble: {
+						distance: 400,
+						size: 4,
+						duration: 0.3,
+						opacity: 1,
+						speed: 3
+					},
+					repulse: {
+						distance: 200,
+						duration: 0.4
+					},
+					push: {
+						particles_nb: 4
+					},
+					remove: {
+						particles_nb: 2
+					}
+				}
+			},
+			retina_detect: true
+		});
+		var count_particles, stats, update;
+		stats = new Stats();
+		stats.setMode(0);
+		stats.domElement.style.position = "absolute";
+		stats.domElement.style.left = "0px";
+		stats.domElement.style.top = "0px";
+		document.body.appendChild(stats.domElement);
+		count_particles = document.querySelector(".js-count-particles");
+		update = function () {
+			stats.begin();
+			stats.end();
+			if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+				count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+			}
+			requestAnimationFrame(update);
+		};
+		requestAnimationFrame(update);
+
+	</script>
+
+
+	<script>
+		//you can change the text, but you need to keep same format [yourtext, color];
+		let yourtext = [
+			["Usability", "#fff"],
+			//   ["stunning", "#7DE2D1"],
+			//   ["creative", "#DE3C4B"]
+		];
+
+		let x = 0;
+		let y = 0;
+		//how fast typing is
+		let wait = 300;
+		//how long you want to text stay before overwriting
+		let additionalwait = 5;
+		let txt = yourtext[0][0].split("");
+		let out = "";
+		let retyping = setInterval(function () {
+			document.getElementById("changingText").innerHTML = out;
+			if (x > txt.length - 1) {
+			} else {
+				out += txt[x];
+			}
+			x++;
+			if (x == txt.length + 2 + additionalwait) {
+				if (y == yourtext.length - 1) {
+					y = 0;
+					txt = yourtext[y][0].split("");
+					out = "";
+					document.getElementById("changingText").innerHTML = out;
+					document.getElementById("changingText").style.color = yourtext[y][1];
+					x = 0;
+				} else {
+					y += 1;
+					txt = yourtext[y][0].split("");
+					out = "";
+					document.getElementById("changingText").innerHTML = out;
+					document.getElementById("changingText").style.color = yourtext[y][1];
+					x = 0;
+				}
+			}
+		}, wait);
+
+	</script>
+
+
+	<!-- pointer js -->
+
+	<script>
+		(() => {
+
+			const cursor = document.querySelector('.cursor');
+
+			document.addEventListener('mousemove', e => {
+				cursor.setAttribute('style', `top:  ${e.pageY - 25}px; left: ${e.pageX - 25}px;`);
+			});
+
+			document.addEventListener('click', () => {
+				console.log("%c Click...!!!", "font-size: 20px; color:mediumspringgreen;");
+
+				cursor.classList.add('cursor--expand');
+				console.log(cursor.classList);
+
+				setTimeout(() => {
+					cursor.classList.remove('cursor--expand');
+				}, 500);
+			});
+		})();
+
+
+
+	</script>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/slick.js"></script>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
